@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@layer base {
+  html,
+  body,
+  #root {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+    background-color: #0f110f;
+    color: #ece8df;
+  }
+}
+
+.font-display {
+  font-family: "Barlow Condensed", "Arial Narrow", sans-serif;
+}
+
+.font-mono-num {
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+.hud-stroke {
+  text-shadow:
+    0 2px 6px rgba(0, 0, 0, 0.85),
+    0 0 2px rgba(0, 0, 0, 0.95);
+}

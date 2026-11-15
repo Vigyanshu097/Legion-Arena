@@ -1,0 +1,6 @@
+{
+  "name": "LEGION ARENA // WW2 TACTICAL HUB",
+  "description": "Browser-based procedural 3D WW2 tactical FPS multiplayer hub with PeerJS room codes, Team Deathmatch, Gun Game, Reflex Arena, and Trench Tank lobby arcade.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
